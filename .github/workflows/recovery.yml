@@ -18,8 +18,9 @@ env:
   DT_LINK: https://github.com/wilburnmacianceno62/Twrp-zte
   DT_PATH: device/zte/k71v1_64_bsp
   TARGET: recoveryimage
+  BUILD: recovery
+  OT: omini_
   TZ: Asia/manila
-
 jobs:
   build:
     runs-on: ubuntu-20.04

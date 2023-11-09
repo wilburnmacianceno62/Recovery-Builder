@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
-  DEVICE: KD7
-  DT_LINK: https://github.com/mastersenpai0405/recovery_device_tecno_KD7
-  DT_PATH: device/tecno/KD7
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
+  DEVICE: k71v1_64_bsp
+  DT_LINK: https://github.com/wilburnmacianceno62/Twrp-zte-blade-20/tree/main/zte/k71v1_64_bsp
+  DT_PATH: device/zte/k71v1_64_bsp
   TARGET: recoveryimage
   TZ: Asia/manila
 
